@@ -5,7 +5,7 @@ import './App.css';
 class App extends React.Component {
  
   render() {
-    return <h2>Hi, I am a Kaju!</h2>;
+    return <h2>Hi, I am a Kaju! boom</h2>;
   }
 }
 
