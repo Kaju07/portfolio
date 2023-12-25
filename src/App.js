@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import React from 'react'
-import './App.css';
+import HomePage from "./pages/HomePage";
+import ActivityPage from "./pages/ActivityPage";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 
-class App extends React.Component {
- 
-  render() {
-    return <h2>Hi, I am a Kaju! boom</h2>;
-  }
+export default function App() {
+  const router = createHashRouter([
+    {
+      path: "/",
+      element: <HomePage />,
+    },
+    {
+      path: "/activity",
+      element: <ActivityPage />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
-
-export default App;
