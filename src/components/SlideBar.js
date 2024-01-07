@@ -25,7 +25,7 @@ export default function Slidebar() {
         <div data-aos="slide-down">
           <NavLink to={"/activity"}>
             <img
-              src={require("../assets/images/pp.jpeg")}
+              src={require("../assets/images/pp.jpg")}
               alt="Kajal Ingale"
               title="Discord Activity"
               className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px]"
