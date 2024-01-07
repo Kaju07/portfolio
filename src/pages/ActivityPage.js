@@ -10,7 +10,6 @@ import {
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CodeCard from "../components/Activities/CodeCard";
 import SpotifyCard from "../components/Activities/SpotifyCard";
